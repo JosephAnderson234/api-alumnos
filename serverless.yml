@@ -46,6 +46,6 @@ functions:
     events:
     - http:
         path: /alumnos/eliminar
-        method: post
+        method: delete
         cors: true
         integration: lambda
